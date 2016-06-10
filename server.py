@@ -5,7 +5,8 @@ serversocket = socket.socket(
     socket.AF_INET, socket.SOCK_STREAM)
 #bind the socket to a public host,
 # and a well-known port
-serversocket.bind((socket.gethostname(), 134))
+port = 134
+serversocket.bind((socket.gethostname(), port)) 
 #become a server socket
 serversocket.listen(1)
 
