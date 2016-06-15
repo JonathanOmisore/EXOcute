@@ -1,7 +1,7 @@
 import socket
 from servercommands import checkdictionary
 
-serversocket = socket.socket
+serversocket = socket.socket(
     socket.AF_INET, socket.SOCK_STREAM)
 
 port = input("Enter port \n")
