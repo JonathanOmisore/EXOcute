@@ -7,11 +7,18 @@ port = 134                # Reserve a port for your service.
 
 s.connect((host, port))
 
-while 1:
+while True:
+    
+    
     received = s.recv(1024).decode(encoding="utf-8")
     if(received == "close"):
+        
+    
         sys.exit()
-    if(received[:7] == "http://"):
+    elif(received[:7] == "http://"):
+        
+    
+        
         
         webbrowser.open(received)
         
