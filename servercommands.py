@@ -1,9 +1,10 @@
-import socket
-class commands:
-    def checkcommand(word):
-        commandlist = ['close','visitsite']
-        if(word in commandlist):
-            return word
-        else:
-            return False
+def checkdictionary(word):
+    
+    commanddictionary = ['close','visitsite']
+    if(word in commanddictionary):
+        
+        return word
+    else:
+        
+        return False
         
