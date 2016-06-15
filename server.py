@@ -9,30 +9,37 @@ portenter = int(port)
 serversocket.bind((socket.gethostname(), portenter)) 
 
 serversocket.listen(90)
-
- 
-while 1:
-    #accept connections from outside
+def getinput():
+    message = input("Enter command: \n")
+    return message
+def start():
+    
     (clientsocket, address) = serversocket.accept()
     print("Connected: ")
     print(address)
+    while 1:
+        
+    #accept connections from outside
+        
     #now do something with the clientsocket
-    message = input("Enter command: \n")
-    if(commands.checkcommand(message) == False):
-        print("Not a valid command \n")
-        continue
+        thecommand = getinput()
+        if(commands.checkcommand(thecommand) == False):
+            
+            print("Not a valid command \n")
+            
+            
     
-    else:
-      if(commands.checkcommand(message) == "visitsite"):
-          url = input("Enter URL")
-          message = url
+        else:
+            
+            if(commands.checkcommand(thecommand) == "visitsite"):
+                
+                url = input("Enter URL")
+                thecommand = url
           
           
         
           
             
-      clientsocket.send(bytes(message,'utf-8'))
-      continue
-    
-    
-    
+            clientsocket.send(bytes(thecommand,'utf-8'))
+            
+start()
