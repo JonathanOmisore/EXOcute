@@ -1,5 +1,5 @@
 import socket
-from servercommands import checkdictionary
+import servercommands
 
 serversocket = socket.socket(
     socket.AF_INET, socket.SOCK_STREAM)
@@ -23,7 +23,7 @@ def start():
         
     #now do something with the clientsocket
         thecommand = getinput()
-        if(checkdictionary(thecommand) == False):
+        if(servercommands.checkdictionary(thecommand) == False):
             
             print("Not a valid command \n")
             
@@ -31,7 +31,7 @@ def start():
     
         else:
             
-            if(checkdictionary(thecommand) == "visitsite"):
+            if(servercommands.checkdictionary(thecommand) == "visitsite"):
                 
                 url = input("Enter URL")
                 thecommand = url
