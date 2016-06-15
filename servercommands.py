@@ -1,9 +1,9 @@
-def checkdictionary(word):
+def checkdictionary(command):
     
     commanddictionary = ['close','visitsite']
-    if(word in commanddictionary):
+    if(command in commanddictionary):
         
-        return word
+        return command
     else:
         
         return False
