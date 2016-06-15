@@ -15,7 +15,7 @@ while True:
         
     
         sys.exit()
-    elif(received[:7] == "http://"):
+    if(received[:7] == "http://"):
         
     
         
