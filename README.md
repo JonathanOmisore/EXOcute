@@ -1,5 +1,5 @@
 # EXOcute
-Remotely execute commands on another computer.
+Remotely execute commands on another computer with TCP sockets.
 
 Current commands:                                                                                                                  
 close                                                                                                                                                                           
