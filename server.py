@@ -6,7 +6,8 @@ serversocket = socket.socket(
 
 port = input("Enter port \n")
 portenter = int(port)
-serversocket.bind((socket.gethostname(), portenter)) 
+host = input("Enter server host address \n")
+serversocket.bind((host, portenter)) 
 
 serversocket.listen(90)
 def getinput():
@@ -33,7 +34,7 @@ def start():
             
             if(servercommands.checkdictionary(thecommand) == "visitsite"):
                 
-                url = input("Enter URL")
+                url = input("Enter URL \n")
                 thecommand = url
           
           
