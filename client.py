@@ -2,8 +2,8 @@ import socket               # Import socket module
 import webbrowser
 import sys
 s = socket.socket()         # Create a socket object
-host = socket.gethostname() # Get local machine name
-port = 134                # Reserve a port for your service.
+host = "127.0.0.1" # Server that client will connect to
+port = 134                # Server's port that client will use
 
 s.connect((host, port))
 
