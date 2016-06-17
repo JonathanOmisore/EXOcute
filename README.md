@@ -2,5 +2,5 @@
 Remotely execute commands on another computer with TCP sockets.
 
 ## Current commands:                                                                                                                  
-* close                                                                                                                                                                           
-* visitwebsite
+* close (Terminates the client script, effectively closing the connection)                                                                                                                                                                      
+* visitwebsite (Makes the client's default browser visit a website you enter)
