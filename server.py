@@ -26,11 +26,11 @@ def start():
         thecommand = getinput()
         if(servercommands.checkdictionary(thecommand) == False):
             
-            print("Not a valid command \n")
+            print("Command not in dictionary \n")
             
             
-    
         else:
+
             
             if(servercommands.checkdictionary(thecommand) == "visitsite"):
                 
