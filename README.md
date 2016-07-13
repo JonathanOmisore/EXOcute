@@ -9,13 +9,15 @@ close
 visitsite
 * Makes the client visit any site entered
  * Usage:
+ * 
   visitesite:website url
   
 
 
 shell 
 * Makes the client execute any shell command entered
- * Usage:
+ * Usage: 
+ * 
   shell:any shell command
 
 
