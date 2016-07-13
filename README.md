@@ -2,21 +2,21 @@
 Remotely execute commands on another computer with TCP sockets.
 
 ## Current commands:                                                                                                                  
-* close 
+close 
 
-Terminates client program
+* Terminates client program
 
-* visitsite
-
-Usage:
-visitesite:website url
+visitsite
+* Makes the client visit any site entered
+ * Usage:
+  visitesite:website url
   
-Makes the client visit any site entered
 
-* shell 
 
-Usage:
-shell:any shell command
+shell 
+* Makes the client execute any shell command entered
+ * Usage:
+  shell:any shell command
 
-Makes the client execute any shell command entered
+
 
