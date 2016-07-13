@@ -4,7 +4,7 @@ import sys
 import os
 s = socket.socket()         # Create a socket object
 host = "127.0.0.1" # Server that client will connect to
-port = 134                # Server's port that client will use
+port = 134                # Server's port 
 
 s.connect((host, port))
 
