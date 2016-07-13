@@ -30,13 +30,6 @@ def start():
             
             
         else:
-
-            
-            if(servercommands.checkdictionary(thecommand) == "visitsite"):
-                
-                url = input("Enter URL \n")
-                thecommand = url
-          
           
         
           
