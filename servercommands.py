@@ -1,6 +1,6 @@
 def checkdictionary(command):
     
-    commanddictionary = ['visitsite:','close']
+    commanddictionary = ['visitsite:','close','shell:']
     for x in range(len(commanddictionary)):
         for command in commanddictionary:
             
@@ -9,12 +9,3 @@ def checkdictionary(command):
         else:
         
             return False
-
-    commanddictionary = ['close','visitsite']
-    if(command in commanddictionary):
-        
-        return command
-    else:
-        
-        return False
-        
