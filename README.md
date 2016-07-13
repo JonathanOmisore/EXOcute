@@ -8,10 +8,10 @@ Terminates client program
 
 * visitsite
 
-  Usage:
-  visitesite:website url
+Usage:
+visitesite:website url
   
-  Makes the client visit any site entered
+Makes the client visit any site entered
 
 * shell 
 
