@@ -15,11 +15,12 @@ while True:
         
     
         sys.exit()
+    if(received[:10] == "visitsite:"):
+
     if(received[:7] == "http://"):
         
     
         
         
-        webbrowser.open(received)
-        
+        webbrowser.open(received.replace("visitsite:",""))
         
