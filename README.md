@@ -1,13 +1,13 @@
 # EXOcute
-Remotely execute commands on another computer with TCP sockets.
+TCP socket-based application that allows you to remotely control another computer.
 
 ## Current commands:                                                                                                                  
 close 
 
-* Terminates client program
+* Terminates connection with client
 
 visitsite
-* Makes the client visit any site entered
+* Makes the client visit a given site
  * Usage:
  * 
   visitesite:website url
