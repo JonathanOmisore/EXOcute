@@ -15,7 +15,7 @@ visitsite
 
 
 shell 
-* Makes the client execute any shell command entered
+* Makes the client execute its operating system's shell command
  * Usage: 
  * 
   shell:any shell command
