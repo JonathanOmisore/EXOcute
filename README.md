@@ -11,14 +11,22 @@ visitsite
  * Usage:
  * 
   visitesite:website url
+
+* Example:
+* 
+ visitsite:http://www.google.com
   
 
 
 shell 
-* Makes the client execute its operating system's shell command
+* Makes the client execute an operating system shell command
  * Usage: 
  * 
   shell:any shell command
+
+ * Example:
+ * 
+  shell:mkdir pumpkinpie
 
 
 
