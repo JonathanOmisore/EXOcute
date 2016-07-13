@@ -12,8 +12,8 @@ visitsite
  * 
   visitesite:website url
 
-* Example:
-* 
+ * Example:
+ * 
  visitsite:http://www.google.com
   
 
@@ -24,8 +24,8 @@ shell
  * 
   shell:any shell command
 
- * Example:
- * 
+  * Example:
+  * 
   shell:mkdir pumpkinpie
 
 
