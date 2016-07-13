@@ -6,8 +6,7 @@ serversocket = socket.socket(
 
 port = input("Enter port \n")
 portenter = int(port)
-host = input("Enter server host address \n")
-serversocket.bind((host, portenter)) 
+serversocket.bind(("127.0.0.1", portenter)) 
 
 serversocket.listen(90)
 def getinput():
@@ -30,10 +29,7 @@ def start():
             
             
         else:
-          
-        
-          
-            
+
             clientsocket.send(bytes(thecommand,'utf-8'))
             
 start()
