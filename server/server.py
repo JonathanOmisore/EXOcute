@@ -15,7 +15,7 @@ def getinput():
 def start():
     
     (clientsocket, address) = serversocket.accept()
-    print("Connected: ")
+    print("Client has connected: ")
     print(address)
     while 1:
         
