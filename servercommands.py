@@ -1,5 +1,4 @@
-def checkdictionary(command):
-    
+def checkdictionary(word):
     commanddictionary = ['visitsite:','close','shell:']
     for x in range(len(commanddictionary)):
         for command in commanddictionary:
