@@ -8,11 +8,11 @@ close
 
 visitsite
 * Makes the client visit a given site
- * Usage:
+* Usage:
  * 
   visitesite:website url
 
- * Example:
+* Example:
  * 
  visitsite:http://www.google.com
   
@@ -20,11 +20,11 @@ visitsite
 
 shell 
 * Makes the client execute an operating system shell command
- * Usage: 
+* Usage: 
  * 
   shell:any shell command
 
-  * Example:
+* Example:
   * 
   shell:mkdir pumpkinpie
 
